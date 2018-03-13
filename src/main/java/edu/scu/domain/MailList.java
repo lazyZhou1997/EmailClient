@@ -1,3 +1,7 @@
+package edu.scu.domain;
+
+import edu.scu.domain.GetMailInfo;
+
 import java.util.LinkedList;
 
 /**

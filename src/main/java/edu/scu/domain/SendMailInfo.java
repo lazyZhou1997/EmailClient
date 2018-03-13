@@ -1,3 +1,5 @@
+package edu.scu.domain;
+
 /**
  * 用于保存用户的登录信息
  *

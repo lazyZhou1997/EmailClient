@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Class-Path: plexus-sec-dispatcher-1.3.jar maven-reporting-api-3.0.jar 
+ aether-impl-1.7.jar maven-reporting-exec-1.2.jar plexus-utils-2.0.4.j
+ ar maven-plugin-api-3.0.jar maven-core-3.0.jar maven-model-builder-3.
+ 0.jar sisu-inject-bean-1.4.2.jar maven-settings-builder-3.0.jar javax
+ .transaction.jar javax.jms.jar javax.annotation.jar javax.ejb.jar jav
+ ax.servlet.jar javax.persistence.jar javax.servlet.jsp.jar javax.reso
+ urce.jar javax.servlet.jsp.jstl.jar maven-aether-provider-3.0.jar ple
+ xus-component-annotations-1.5.5.jar plexus-classworlds-2.2.3.jar sisu
+ -guice-2.1.7-noaop.jar sisu-inject-plexus-1.4.2.jar maven-model-3.0.j
+ ar maven-settings-3.0.jar jsr305-2.0.1.jar plexus-cipher-1.4.jar mave
+ n-artifact-3.0.jar doxia-sink-api-1.0.jar aether-api-1.7.jar maven-sh
+ ared-utils-0.3.jar maven-repository-metadata-3.0.jar aether-util-0.9.
+ 0.M2.jar aether-spi-1.7.jar plexus-interpolation-1.14.jar aether-util
+ -1.7.jar
+Main-Class: ClientMain
+

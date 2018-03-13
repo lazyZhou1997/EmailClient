@@ -1,3 +1,9 @@
+package edu.scu.connection;
+
+import edu.scu.domain.GetMailInfo;
+import edu.scu.domain.MailList;
+import edu.scu.utils.MailStringDeal;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;

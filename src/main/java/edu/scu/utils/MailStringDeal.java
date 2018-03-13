@@ -1,3 +1,7 @@
+package edu.scu.utils;
+
+import edu.scu.domain.GetMailInfo;
+
 /**
  * 对收到的邮件服务器的字符串进行简单处理
  * @author 周秦春

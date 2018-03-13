@@ -12,7 +12,7 @@ public class ClientMain {
 
         exit:
         while (true) {
-            System.out.println("输入\"s\"或者\"S\"发送文件，输入\"r\"或者\"R\"接受文件\n" +
+            System.out.println("输入\"s\"或者\"S\"发送邮件，输入\"r\"或者\"R\"接受邮件\n" +
                     "输入\"q\"或者\"Q\"来结束程序。");
             //获取用户输入
             String input = stdinScanner.nextLine();
@@ -20,13 +20,13 @@ public class ClientMain {
             switch (input.toLowerCase()) {
                 case "s":
                     //发送邮件功能
-                    SendMailLogc sendMailLogc = new SendMailLogc();
-                    sendMailLogc.start();
+                    SendMailLogcInfo sendMailLogcInfo = new SendMailLogcInfo();
+                    sendMailLogcInfo.start();
                     break;
                 case "r":
                     //接收邮件功能
-                    GetMailLogc getMailLogc = new GetMailLogc();
-                    getMailLogc.start();
+                    GetMailLogcInfo getMailLogcInfo = new GetMailLogcInfo();
+                    getMailLogcInfo.start();
                     break;
 
                 case "q":

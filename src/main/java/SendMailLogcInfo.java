@@ -1,3 +1,6 @@
+import edu.scu.connection.SendMailTemple;
+import edu.scu.domain.SendMailInfo;
+
 import java.util.Scanner;
 
 /**
@@ -6,7 +9,7 @@ import java.util.Scanner;
  * @author 周秦春
  * @date 2017-11-17
  */
-public class SendMailLogc {
+public class SendMailLogcInfo {
     public void start() {
         @SuppressWarnings("resource")
         Scanner stdinScanner = new Scanner(System.in);
@@ -30,7 +33,7 @@ public class SendMailLogc {
         String temp[] = sendMailInfo.getMail_from().split("@");
         //设置用户邮件服务器SMTP_HOST
         sendMailInfo.setServerHost("smtp." + temp[1]);
-        System.out.println(sendMailInfo.getServerHost());
+
         //设置SMTP默认端口25
         sendMailInfo.setServerPort(25);
 

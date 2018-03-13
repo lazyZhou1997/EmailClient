@@ -1,3 +1,5 @@
+package edu.scu.domain;
+
 /**
  * 保存收件所需的信息
  *

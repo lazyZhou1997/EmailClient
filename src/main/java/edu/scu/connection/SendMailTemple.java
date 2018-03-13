@@ -1,3 +1,6 @@
+package edu.scu.connection;
+
+import edu.scu.domain.SendMailInfo;
 import sun.misc.BASE64Encoder;
 
 import java.io.BufferedReader;

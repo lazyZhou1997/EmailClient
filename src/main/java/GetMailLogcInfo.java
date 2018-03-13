@@ -1,3 +1,7 @@
+import edu.scu.connection.GetMailTemple;
+import edu.scu.domain.GetMailInfo;
+import edu.scu.domain.MailList;
+
 import java.io.*;
 import java.util.Scanner;
 
@@ -7,7 +11,7 @@ import java.util.Scanner;
  * @author 周秦春
  * @date 2017-11-25
  */
-public class GetMailLogc {
+public class GetMailLogcInfo {
 
     private GetMailInfo getMailInfo;
 //    private String storePath = "." + File.separator;
